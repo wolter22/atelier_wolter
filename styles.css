@@ -85,3 +85,11 @@ li {
 	padding-left: 20%;
 	padding-right: 20%;
 }
+
+.rowkontakt{
+  display: flex;
+}
+
+.columnkontakt{
+  flex: 33.33%;
+}

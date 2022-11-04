@@ -3,7 +3,7 @@
       <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bootstrap demo</title>
+        <title>Atelier Wolter</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
       </head>
@@ -24,13 +24,13 @@
         <div class="navigation">
           <ul class="nav justify-content-center">
           <li class="nav-item">
-            <a class="nav-link active text-dark" href="#">Gallerie</a>
+            <a class="nav-link active text-dark" href="#galerielink">Galerie</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Commissions</a>
+            <a class="nav-link text-dark" href="#comissionslink">Commissions</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Kontakt</a>
+            <a class="nav-link text-dark" href="#kontaktlink">Kontakt</a>
           </li>
           </ul>
         </div>
@@ -39,10 +39,10 @@
 
 
         
-        <!-- Gallerie -->
-        <div class="gallerie">
+        <!-- Galerie -->
+        <div id="galerielink" class="galerie">
           <br>
-        <h1 class="bg-dark text-white headline">Gallerie</h1>
+        <h1 class="bg-dark text-white headline">Galerie</h1>
 
         <br><br>
 
@@ -86,7 +86,7 @@
 
         <br><br><br>
 
-        <!-- Gallerie -->
+        <!-- Galerie -->
 
       <div class="row">
         <div class="column">
@@ -125,36 +125,33 @@
   <div class="generalborder bg-dark">
 
             <!-- Commissions -->
-        <div class="commissions bg-dark">
+        <div id="comissionslink" class="commissions bg-dark">
           <br>
           <br>
           <h1 class="bg-white text-black headline">Commissions</h1>
 
           <br><br>
-        Formular
         <form class="kontakt">
           <div class="form-group">
-    <label for="exampleInputPassword1" class="text-white">Name</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Name">
+    <label for="inputName" class="text-white">Name</label>
+    <input type="name" class="form-control" id="inputName" placeholder="Dein Name">
   </div>
   <br>
   <div class="form-group">
-    <label for="exampleInputEmail1" class="text-white">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <label for="inputEmail" class="text-white">E-Mail Adresse</label>
+    <input type="email" class="form-control" id="inputEmail" placeholder="Deine E-Mail Adresse">
   </div>
   <br>
   <div class="form-group">
-    <label for="exampleInputEmail1" class="text-white">Auftragsbescheibung</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Beschreibung">
+    <label for="inputAuftrag" class="text-white">Auftragsbescheibung</label>
+    <textarea type="text" class="form-control" id="inputAuftrag" placeholder="Beschreibung" rows="3"></textarea>
   </div>
   <br>
   
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary bg-white text-black">Senden</button>
 </form>
 
 
-          <br><br>
-          <br><br>
           <br><br>
           <br><br>
           <br><br>
@@ -164,8 +161,29 @@
 
 
 
-        <div class="kontakt text-white">
-          Kontakt
+        <div id="kontaktlink" class="kontakt text-white">
+
+      <div class="rowkontakt">
+        <div class="columnkontakt">
+          <h2>Kontakt</h2>
+          <br>
+          Manuela Wolter Atelier
+          <br>
+          test@email.de
+          <br>
+          +0000 0000 00 00
+          </div>
+        <div class="columnkontakt">
+          <br><br><br>
+          Facebook
+          <br>
+          Twitter
+        </div>
+        <div class="columnkontakt">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d310843.4756169356!2d13.143873450937432!3d52.50692963138279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2sBerlin!5e0!3m2!1sde!2sde!4v1667590259077!5m2!1sde!2sde" width="80%" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
         </div>
 
 
