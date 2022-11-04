@@ -7,6 +7,9 @@
 }
 
 body{
+}
+
+.generalborder{
 	padding-left: 5%;
 	padding-right: 5%;
 }
@@ -60,4 +63,25 @@ li {
 	height:  80%;
 	width: 80%;
 	overflow:  hidden;
+}
+
+.row {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.commissions{
+	background-color: "black";
+	color: "black";
+}
+
+.kontakt{
+	padding-left: 20%;
+	padding-right: 20%;
 }
