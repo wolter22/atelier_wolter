@@ -9,6 +9,51 @@
 body{
 }
 
+@font-face{
+  font-family: montbold;
+  src: url(resources/font/Montserrat-Bold.ttf) format("truetype");
+}
+
+@font-face{
+  font-family: montregular;
+  src: url(resources/font/Montserrat-Regular.ttf) format("truetype");
+}
+
+@font-face{
+  font-family: montthin;
+  src: url(resources/font/Montserrat-Thin.ttf) format("truetype");
+}
+
+@font-face{
+  font-family: montblack;
+  src: url(resources/font/Montserrat-Black.ttf) format("truetype");
+}
+
+h5{
+	font-family: montbold;
+}
+
+h1{
+	font-family: montblack;
+}
+
+h2{
+	font-family: fontbold;
+}
+span{
+	font-family: montregular;
+}
+
+a{
+	font-family: montbold;
+}
+
+p{
+	font-family: montthin;
+}
+
+
+
 .generalborder{
 	padding-left: 5%;
 	padding-right: 5%;
