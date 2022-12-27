@@ -39,7 +39,8 @@ li {
 
 .carouselCustom{
 	border-radius: 80px;
-
+	height: 600px;
+	width: auto;
 }
 
 .carouselText{
@@ -72,8 +73,6 @@ li {
 }
 
 .column {
-  flex: 33.33%;
-  padding: 5px;
 }
 
 .commissions{
@@ -92,4 +91,52 @@ li {
 
 .columnkontakt{
   flex: 33.33%;
+}
+
+.columnLeft{
+  flex: 33.33%;
+  padding: 5px;
+  height: 100%;
+}
+
+.columnMiddle{
+  flex: 33.33%;
+  padding: 5px;
+  height: 100%;
+	
+}
+.columnRight{
+  flex: 33.33%;
+  padding: 5px;
+  height: 100%;
+	
+}
+
+.columnMiddle2{
+  flex: 33.33%;
+  padding: 5px;
+  height: 100%;
+  margin-top: -16.25%;
+	
+}
+
+.columnMiddle3{
+  flex: 33.33%;
+  padding: 5px;
+  height: 100%;
+  margin-top: -19.25%;
+	
+}
+.columnLeft2{
+  flex: 33.33%;
+  padding: 5px;
+  height: 100%;
+  margin-top: -12%;
+}
+
+.columnRight2{
+  flex: 33.33%;
+  padding: 5px;
+  height: 100%;
+	margin-top: -9.45%;
 }
