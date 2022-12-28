@@ -194,6 +194,11 @@ li {
  border-radius: 0px 80px 0px 0px;
 }
 
+#logolink{
+	padding-top: 1%;
+	width: 100%;
+}
+
 
 @media only screen and (max-width: 800px){
 	.navigation{
@@ -277,8 +282,12 @@ li {
   margin-top: -33%;
 }
 
+#col1{
+	border-radius: 40px 0px 0px 0px;
+}
+
 #col2{
- border-radius: 0px 80px 0px 0px;
+ border-radius: 0px 40px 0px 0px;
 }
 
 #col2_1{
@@ -286,17 +295,23 @@ li {
 }
 
 #col3{
-
  border-radius: 0px 0px 0px 0px;
 }
 #col7{
-
- border-radius: 0px 0px 0px 80px;
+ border-radius: 0px 0px 0px 40px;
 }
 
 #col8{
+ border-radius: 0px 0px 40px 0px;
+}
 
- border-radius: 0px 0px 80px 0px;
+#logolink{
+	padding-top: 5%;
+}
+
+#logo{
+	width: auto;
+	height: 100px;
 }
 
 }
