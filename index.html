@@ -1,261 +1,252 @@
-    <!doctype html>
-    <html lang="en">
-      <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Atelier Wolter</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
-
-
-      </head>
-      <body>
-        <div class="generalborder">
-        <!-- logo -->
-        <nav class="navbar">
-          <a id="logolink" href="https://wolter22.github.io/"><img id="logo" src = "resources/logo.png" class="center"></a>
-          <img id="hamburger" src="resources/icons/hamburger.svg" width="50px" height="50px" align="left">
-        </nav>
-
-
-        <!-- trennlinie -->
-        <nav class="bg-dark">
-          <nav class=trennlinie>
-          </nav> 
-        </nav>
-
-    <!-- navigation -->
-        <div class="navigation">
-          <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link active text-dark" href="#galerielink">Galerie</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#comissionslink">Commissions</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#kontaktlink">Kontakt</a>
-          </li>
-          </ul>
-        </div>
-
-
-
-
-        
-        <!-- Galerie -->
-        <div id="galerielink" class="galerie">
-          <br>
-        <h1 class=" text-black headline">Galerie</h1>
-
-        <br><br>
-
-        <!-- Carousel - Bilder Slide -->
-           <div id="myCarousel" class="carousel slide center" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="resources/pictures/ein_hauch_von_porto.jpg" class="d-block center bg-secondary bg-white carouselCustom" alt="photo 1">
-                    <p id="block-under-image"></p>
-                  <div class="carousel-caption text-dark">
-                    <h5>„Ein Hauch von Porto“</h5>
-                    <p>Platzhalter</p>
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Atelier Wolter</title>
+      <link rel="icon" type="image/x-icon" href="resources/icons/favicon.png">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+      <div class="generalborder">
+         <!-- logo -->
+         <nav class="navbar">
+            <a id="logolink" href="https://wolter22.github.io/"><img id="logo" src = "resources/logo.png" class="center"></a>
+            <img onclick="openNav()" id="hamburger" src="resources/icons/hamburger.svg" width="50px" height="50px" align="left">
+         </nav>
+         <!-- trennlinie -->
+         <nav class="bg-dark">
+            <nav class=trennlinie>
+            </nav>
+         </nav>
+         <!-- navigation -->
+         <div class="navigation">
+            <ul class="nav justify-content-center">
+               <li class="nav-item">
+                  <a class="nav-link active text-dark" href="#galerielink">Galerie</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-dark" href="#comissionslink">Commissions</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-dark" href="#kontaktlink">Kontakt</a>
+               </li>
+            </ul>
+         </div>
+         <!-- Galerie -->
+         <div id="galerielink" class="galerie">
+            <br>
+            <h1 class=" text-black">Galerie</h1>
+            <br><br>
+            <!-- Carousel - Bilder Slide -->
+            <div id="myCarousel" class="carousel slide center" data-bs-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img src="resources/pictures/ein_hauch_von_porto.jpg" class="d-block center bg-secondary bg-white carouselCustom" alt="photo 1">
+                     <p id="block-under-image"></p>
+                     <div class="carousel-caption text-dark">
+                        <h5>„Ein Hauch von Porto“</h5>
+                        <p>Platzhalter</p>
+                     </div>
                   </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="resources/pictures/dreaming_america.jpg" class="d-block center bg-secondary bg-white carouselCustom" alt="photo 2">
-                    <p id="block-under-image"></p>
-                  <div class="carousel-caption text-dark">
-                    <h5>„Dreaming America“</h5>
-                    <p>Platzhalter</p>
+                  <div class="carousel-item">
+                     <img src="resources/pictures/dreaming_america.jpg" class="d-block center bg-secondary bg-white carouselCustom" alt="photo 2">
+                     <p id="block-under-image"></p>
+                     <div class="carousel-caption text-dark">
+                        <h5>„Dreaming America“</h5>
+                        <p>Platzhalter</p>
+                     </div>
                   </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="resources/pictures/venezianischer_traum.jpg" class="d-block center bg-secondary bg-white carouselCustom" alt="photo 3">
-                    <p id="block-under-image"></p>
-                  <div class="carousel-caption text-dark">
-                    <h5>„Venezianischer Traum“</h5>
-                    <p>Platzhalter</p>
+                  <div class="carousel-item">
+                     <img src="resources/pictures/venezianischer_traum.jpg" class="d-block center bg-secondary bg-white carouselCustom" alt="photo 3">
+                     <p id="block-under-image"></p>
+                     <div class="carousel-caption text-dark">
+                        <h5>„Venezianischer Traum“</h5>
+                        <p>Platzhalter</p>
+                     </div>
                   </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="resources/pictures/paradise.jpg" class="d-block center bg-secondary bg-white carouselCustom" alt="photo 4">
-                    <p id="block-under-image"></p>
-                  <div class="carousel-caption text-dark">
-                    <h5>„Paradise“</h5>
-                    <p>Platzhalter</p>
+                  <div class="carousel-item">
+                     <img src="resources/pictures/paradise.jpg" class="d-block center bg-secondary bg-white carouselCustom" alt="photo 4">
+                     <p id="block-under-image"></p>
+                     <div class="carousel-caption text-dark">
+                        <h5>„Paradise“</h5>
+                        <p>Platzhalter</p>
+                     </div>
                   </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="resources/pictures/abendgefluester.jpg" class="d-block center bg-secondary bg-white carouselCustom" alt="photo 5">
-                    <p id="block-under-image"></p>
-                  <div class="carousel-caption text-dark">
-                    <h5>„Abendgeflüster“</h5>
-                    <p>Platzhalter</p>
+                  <div class="carousel-item">
+                     <img src="resources/pictures/abendgefluester.jpg" class="d-block center bg-secondary bg-white carouselCustom" alt="photo 5">
+                     <p id="block-under-image"></p>
+                     <div class="carousel-caption text-dark">
+                        <h5>„Abendgeflüster“</h5>
+                        <p>Platzhalter</p>
+                     </div>
                   </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="resources/pictures/das_seeungeheuer.jpg" class="d-block center bg-secondary bg-white carouselCustom" alt="photo 6">
-                    <p id="block-under-image"></p>
-                  <div class="carousel-caption text-dark">
-                    <h5>„Das Seehungeheuer“</h5>
-                    <p>Platzhalter</p>
+                  <div class="carousel-item">
+                     <img src="resources/pictures/das_seeungeheuer.jpg" class="d-block center bg-secondary bg-white carouselCustom" alt="photo 6">
+                     <p id="block-under-image"></p>
+                     <div class="carousel-caption text-dark">
+                        <h5>„Das Seehungeheuer“</h5>
+                        <p>Platzhalter</p>
+                     </div>
                   </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="resources/pictures/eine_nacht_am_pfefferberg.jpg" class="d-block center bg-secondary bg-white carouselCustom" alt="photo 7">
-                    <p id="block-under-image"></p>
-                  <div class="carousel-caption text-dark">
-                    <h5>„Eine Nacht am Pfefferberg“</h5>
-                    <p>Platzhalter</p>
+                  <div class="carousel-item">
+                     <img src="resources/pictures/eine_nacht_am_pfefferberg.jpg" class="d-block center bg-secondary bg-white carouselCustom" alt="photo 7">
+                     <p id="block-under-image"></p>
+                     <div class="carousel-caption text-dark">
+                        <h5>„Eine Nacht am Pfefferberg“</h5>
+                        <p>Platzhalter</p>
+                     </div>
                   </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="resources/pictures/bode_museum.jpg" class="d-block center bg-secondary bg-white carouselCustom" alt="photo 8">
-                    <p id="block-under-image"></p>
-                  <div class="carousel-caption text-dark">
-                    <h5>„Bode Muesum“</h5>
-                    <p>Platzhalter</p>
+                  <div class="carousel-item">
+                     <img src="resources/pictures/bode_museum.jpg" class="d-block center bg-secondary bg-white carouselCustom" alt="photo 8">
+                     <p id="block-under-image"></p>
+                     <div class="carousel-caption text-dark">
+                        <h5>„Bode Muesum“</h5>
+                        <p>Platzhalter</p>
+                     </div>
                   </div>
-                </div>
+               </div>
+               <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               </a>
+               <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               </a>
             </div>
-            <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </a>
-            <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </a>
-        </div>
-
-        <br><br><br>
-
-        <!-- Galerie -->
-
-      <div class="row">
-        <div class="columnLeft" >
-          <img src="resources/pictures/abendgefluester.jpg" id="col1" alt="Snow" style="width:100% ">
-          </div>
-        <div class="columnMiddle"  >
-          <img src="resources/pictures/bode_museum.jpg" id="col2" alt="Forest" style="width:100%">
-        </div>
-        <div class="columnRight" >
-          <img src="resources/pictures/eine_nacht_am_pfefferberg.jpg" id="col3" alt="Mountains" style="width:100% ">
-        </div>
-         <div class="columnLeft" id="col2_1">
-          <img src="resources/pictures/dreaming_america.jpg" id="col4" alt="Snow" style="width:100%">
-          </div>
-        <div class="columnMiddle2" >
-          <img src="resources/pictures/paradise.jpg" id="col5" alt="Forest" style="width:100%">
-        </div>
-        <div class="columnRight2" >
-          <img src="resources/pictures/das_seeungeheuer.jpg" id="col6" alt="Mountains" style="width:100%">
-        </div>
-         <div class="columnLeft2" >
-          <img src="resources/pictures/ein_hauch_von_porto.jpg" id="col7" alt="Snow" style="width:100%">
-          </div>
-        <div class="columnMiddle3" >
-          <img src="resources/pictures/venezianischer_traum.jpg" id="col8" alt="Forest" style="width:100% ">
-        </div>
-        <div class="columnRight">
-        </div>
+            <br><br><br>
+            <!-- Galerie -->
+            <div class="row">
+               <div class="columnLeft" >
+                  <img src="resources/pictures/abendgefluester.jpg" id="col1" alt="Snow" style="width:100% ">
+               </div>
+               <div class="columnMiddle"  >
+                  <img src="resources/pictures/bode_museum.jpg" id="col2" alt="Forest" style="width:100%">
+               </div>
+               <div class="columnRight" >
+                  <img src="resources/pictures/eine_nacht_am_pfefferberg.jpg" id="col3" alt="Mountains" style="width:100% ">
+               </div>
+               <div class="columnLeft" id="col2_1">
+                  <img src="resources/pictures/dreaming_america.jpg" id="col4" alt="Snow" style="width:100%">
+               </div>
+               <div class="columnMiddle2" >
+                  <img src="resources/pictures/paradise.jpg" id="col5" alt="Forest" style="width:100%">
+               </div>
+               <div class="columnRight2" >
+                  <img src="resources/pictures/das_seeungeheuer.jpg" id="col6" alt="Mountains" style="width:100%">
+               </div>
+               <div class="columnLeft2" >
+                  <img src="resources/pictures/ein_hauch_von_porto.jpg" id="col7" alt="Snow" style="width:100%">
+               </div>
+               <div class="columnMiddle3" >
+                  <img src="resources/pictures/venezianischer_traum.jpg" id="col8" alt="Forest" style="width:100% ">
+               </div>
+               <div class="columnRight">
+               </div>
+            </div>
+         </div>
       </div>
-
-
-        </div>
-  </div>
-        <br><br><br><br><br>
-  <div class="generalborder bg-dark">
-
-    <div class="bordercom">
-
-            <!-- Commissions -->
-        <div id="comissionslink" class="commissions bg-dark">
-          <br>
-          <br>
-          <h1 class=" text-white headline">Commissions</h1>
-
-          <br><br>
-
-  <form target="_blank" action="https://formsubmit.co/33fe67a09d5db8d14412c12f7eeb6c66" method="POST">
-    <div class="form-group"> 
-      <label for="inputName" class="text-white"><span>Name</span></label>
-      <input type="name" name="name" class="form-control" id="inputName" placeholder="" required>
-    </div>
-    <br>
-    <div class="form-group">
-      <label for="inputEmail"  class="text-white"><span>E-Mail Adresse</span></label>
-      <input type="email" name="email" class="form-control" id="inputEmail" placeholder="" required>
-    </div>
-
-    <br>
-  <div class="form-group">
-    <label for="inputAuftrag" class="text-white"><span>Auftragsbescheibung</span></label>
-    <textarea type="text" name="message" class="form-control" id="inputAuftrag" placeholder="" rows="3" required></textarea>
-  </div>
-  <br>
-  <button type="submit" class="btn btn-primary bg-white text-black"><span>Senden</span></button>
-  </form>
-
-</div>
-
-
-
-
-
-
-          <br><br>
-          <br><br>
-          <br><br>
-
-
-        </div>
-
-
-
-        <div id="kontaktlink" class="kontakt text-white">
-
-      <div class="rowkontakt">
-        <div class="columnkontakt">
-          <div><embed src="resources/icons/mail.svg" height="20" width="40" id="insivible"><span id="kontakttext">Kontakt</span></div>
-          <br>
-          <div><embed src="resources/icons/mail.svg" height="20" width="40" id="insivible"><span>Manuela Wolter Atelier</span></div>
-          <div ><embed id="iconwhite" src="resources/icons/mail.svg" height="20" width="40"><span>test@email.de</span></div>
-          <div ><embed id="iconwhite" src="resources/icons/phone.svg" height="20" width="40"><span>+0000 0000 00 00</span></div>
-          </div>
-        <div class="columnkontakt">
-          <br><br><br>
-          <span>Facebook</span>
-          <br>
-          <span>Twitter</span>
-        </div>
-        <div class="columnkontakt">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d310843.4756169356!2d13.143873450937432!3d52.50692963138279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2sBerlin!5e0!3m2!1sde!2sde!4v1667590259077!5m2!1sde!2sde" width="80%" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+      <br><br><br><br><br>
+      <!-- Commissions -->
+      <div id="comissionslink" class="commissions bg-dark">
+         <br>
+         <br>
+         <h1 id="textborderstyle" class=" text-white">Commissions</h1>
+         <div class="generalborder bg-dark">
+            <div class="bordercom">
+               <br><br>
+               <form target="_blank" action="https://formsubmit.co/33fe67a09d5db8d14412c12f7eeb6c66" method="POST">
+                  <div class="form-group"> 
+                     <label for="inputName" class="text-white"><span>Name</span></label>
+                     <input type="name" name="name" class="form-control" id="inputName" placeholder="" required>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                     <label for="inputEmail"  class="text-white"><span>E-Mail Adresse</span></label>
+                     <input type="email" name="email" class="form-control" id="inputEmail" placeholder="" required>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                     <label for="inputAuftrag" class="text-white"><span>Auftragsbescheibung</span></label>
+                     <textarea type="text" name="message" class="form-control" id="inputAuftrag" placeholder="" rows="3" required></textarea>
+                  </div>
+                  <br>
+                  <button type="submit" class="btn btn-primary bg-white text-black"><span>Senden</span></button>
+               </form>
+            </div>
+            <br><br>
+            <br><br>
+            <br><br>
+         </div>
+         <div id="kontaktlink" class="kontakt text-white">
+            <div class="rowkontakt">
+               <div class="columnkontakt">
+                  <div>
+                     <embed src="resources/icons/mail.svg" height="20" width="40" id="insivible">
+                     <span id="kontakttext">Kontakt</span>
+                  </div>
+                  <br>
+                  <div>
+                     <embed src="resources/icons/mail.svg" height="20" width="40" id="insivible">
+                     <span>Manuela Wolter Atelier</span>
+                  </div>
+                  <div >
+                     <embed id="iconwhite" src="resources/icons/mail.svg" height="20" width="40">
+                     <span>test@email.de</span>
+                  </div>
+                  <div >
+                     <embed id="iconwhite" src="resources/icons/phone.svg" height="20" width="40">
+                     <span>+0000 0000 00 00</span>
+                  </div>
+               </div>
+               <div class="columnkontakt">
+                  <br><br><br>
+                  <span>Facebook</span>
+                  <br>
+                  <span>Twitter</span>
+               </div>
+               <div class="columnkontakt">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d310843.4756169356!2d13.143873450937432!3d52.50692963138279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2sBerlin!5e0!3m2!1sde!2sde!4v1667590259077!5m2!1sde!2sde" width="80%" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
+            </div>
+         </div>
+         <br><br>
+         <div class="navigation ">
+            <ul class="nav justify-content-center">
+               <li class="nav-item">
+                  <a class="nav-link active text-secondary" href="#">Impressum</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">Richtlinien</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">Datenschutz</a>
+               </li>
+            </ul>
+         </div>
       </div>
-
-    </div>
-
-
-    <br><br>
-
-      
-
-      <div class="navigation ">
-          <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link active text-secondary" href="#">Impressum</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Richtlinien</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Datenschutz</a>
-          </li>
-          </ul>
-        </div>
-        </div>
-
-
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-      </body>
-    </html>
+      <!-- The overlay -->
+      <div id="myNav" class="overlay">
+         <!-- Button to close the overlay navigation -->
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <!-- Overlay content -->
+         <div class="overlay-content">
+            <a href="#galerielink">Galerie</a>
+            <a href="#comissionslink">Commissions</a>
+            <a href="#kontaktlink">Kontakt</a>
+         </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">   </script>
+      <script>
+         /* Open when someone clicks on the span element */
+         function openNav() {
+         document.getElementById("myNav").style.width = "100%";
+         }
+         
+         /* Close when someone clicks on the "x" symbol inside the overlay */
+         function closeNav() {
+         document.getElementById("myNav").style.width = "0%";
+         }
+      </script>
+   </body>
+</html>
