@@ -199,6 +199,29 @@ li {
 	width: 100%;
 }
 
+#iconwhite{
+  -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+          filter: invert(100%);
+}
+
+#insivible{
+	visibility: hidden;
+}
+
+#kontakttext{
+	font-family: fontbold;
+	font-size: 26pt;
+}
+
+#hamburger{
+	display: none;
+}
+
+.bordercom{
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
 
 @media only screen and (max-width: 800px){
 	.navigation{
@@ -312,6 +335,28 @@ li {
 #logo{
 	width: auto;
 	height: 100px;
+}
+
+#hamburger{
+	display: block;
+	float:left;
+}
+
+.bordercom{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.rowkontakt{
+  display: block;
+}
+
+
+.columnkontakt{
+  display: inline-block;
+}
+
+iframe{
+	display: none;
 }
 
 }
