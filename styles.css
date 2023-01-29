@@ -227,6 +227,15 @@ li {
 	margin-right: 30%;
 }
 
+.infotext{
+	text-align: center;
+}
+
+.infotext2{
+	text-align: center;
+	color: white;
+}
+
 
 @media only screen and (max-width: 800px){
 	.navigation{
